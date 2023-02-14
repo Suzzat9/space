@@ -10,9 +10,6 @@ class AsteroidInfo extends React.Component {
 
     render = () => {
         if (this.props.selectedAsteroidName) {
-            // TO DO #5: Display the actual details of the selected station
-            //           instead of the placeholder text you see below. - DONE
-            // <img src={asteroid_pic} width={100} height={125} alt="Ast_pic" />
             return (
                 <div className="border shadow p-5  rounded text-center"
                     style={{ backgroundImage: `url(${asteroid_back})`, backgroundRepeat: "no-repeat" }}>

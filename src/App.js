@@ -21,8 +21,6 @@ class App extends React.Component {
             fetch("https://eonet.gsfc.nasa.gov/api/v3/events?status=all&start=2022-12-01&end=2022-12-08")
         const events = await httpResponse.json()
         var geom = events.events[0].geometry.length
-        // console.log(events.events[0].geometry[geom - 1].coordinates)
-        //console.log(events.events)
         this.setState({ events: events.events })
     }
 

@@ -22,14 +22,14 @@ class CirclesMenu extends React.Component {
                 rotationAngleInclusive={false}>
                 <CircleMenuItem
                     onClick={this.props.onClickLoadAll}
-                    tooltip="Natural Events observed in the last week"
+                    tooltip="Natural Events observed"
                     tooltipPlacement={TooltipPlacement.Right}>
 
 
                 </CircleMenuItem>
                 <CircleMenuItem
                     onClick={this.props.onClickLoadAsteroids}
-                    tooltip="Asteroids near Earth observed in the last week"
+                    tooltip="Asteroids near Earth observed"
                     tooltipPlacement={TooltipPlacement.Right}>
                 </CircleMenuItem>
             </CircleMenu>

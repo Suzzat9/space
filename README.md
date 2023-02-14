@@ -15,3 +15,7 @@ Click on the menu on the top right and use the buttons to toggle either of the f
 - Asteroids orbiting earth in the week Dec 1 - 8th (you will have to scroll down to see this if you
 already clicked on Natural events)
     - click on each asteroid to view information on its size
+
+## Pending fixes 
+
+Clicking on just Asteroids, results in info being received with a lag. 

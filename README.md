@@ -1,9 +1,13 @@
 # Learn more about outer space!
 
+## To use the app
+
+1. Clone the repo, open a terminal cd into the folder - `cd space`.
+
+2. Run `npm install`. 
+
 This app uses two NASA APIs to pull information about Natural Events observed from space, and asteroids
 that were in the earths orbit, during the week of 2022-12-01 to 2022-12-08! 
-
-To use it, clone the repo to your local machine and cd into the "space" folder and run npm install in your terminal. 
 
 These dates do not have any special significance, apart from there were a good number of natural events and 
 asteroids in that week! So the full functionality of the app could be used in this case. 

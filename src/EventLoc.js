@@ -13,7 +13,7 @@ class EventLoc extends React.Component {
             const longitude = this.props.coordinates[1]
             const new_src = "https://maps.googleapis.com/maps/api/staticmap?center=" + latitude + "," + longitude +
                 "&zoom=2&size=600x400&maptype=terrain&markers=color:red%7Clabel:E%7C+" + latitude + "," + longitude +
-                "&key=AIzaSyB-oQnkpiDtJiV7YX05PQxmHJviThfoa3o"
+                "&key=AIzaSyC1_tmgGhTgtA0oS6byfOhWkTL1rk6p76A"
             //console.log(new_src)
             return (
                 <><p className="text-white">Event Location:</p>
